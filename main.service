@@ -6,7 +6,7 @@ After=network.target
 User=sruthikutcharlapati1903
 Group=www—data
 WorkingDirectory=/home/sruthikutcharlapati1903/dr-crop-repo-github
-Environment="PATH=/home/sruthikutcharlapati1903/venv/bin"
+Environment="PATH=/home/venv/bin"
 ExecStart=/home/sruthikutcharlapati1903/venv/bin/gunicorn --workers 3 --bind unix:main.sock -m 007 wsgi:app
 
 [Install]
