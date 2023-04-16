@@ -3,7 +3,7 @@ Description=Gunicorn instance to serve flask app
 After=network.target
 
 [Service]
-User=sruthikutcharlapati1903
+User=root
 Group=www—data
 WorkingDirectory=/home/sruthikutcharlapati1903/dr-crop-repo-github
 Environment="PATH=/home/sruthikutcharlapati1903/venv/bin"
